@@ -1,0 +1,376 @@
+:root {
+    --pr-color :#274291;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #CBC9D6;
+}
+
+/* Navbar Style */
+.navbar {
+    z-index: 3;
+}
+.navbar-nav li {
+    position: relative;
+    display: block;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+}
+.navbar-nav li::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform-origin: right;
+    background-color: #fff;
+}
+.navbar-nav li:hover {
+    color: #fff;
+}
+.navbar-nav li:hover::after {
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Navbar Color */
+.nav-color {
+    background-color: var(--pr-color);
+    transition: all ease-in-out 0.5s;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+}
+.bg-transparent {
+    transition: all ease-in 0.5s;
+    -webkit-transition: all ease-in 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -ms-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+}
+* {
+    z-index: 2;
+}
+.accsent-img {
+    z-index: 0;
+}
+.accsent2-img {
+    z-index: 0;
+}
+.img-hero {
+    z-index: 1;
+}
+.navbar-brand {
+    font-weight: 800;
+    font-size: 20px;
+}
+.nav-link {
+    font-size: 16px;
+}
+.nav-link.active {
+    font-weight: 700;
+}
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Hero Section */
+
+#hero {
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    height: 100vh;
+    width: 100%;
+}
+.hero-section {
+    padding: 50px 0;
+}
+
+.img-hero{
+    max-height: 70vh;
+    width: auto;
+}
+
+.hero-tagline h1 {
+    color: #F56120;
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 92px;
+    width: 100%;
+}
+
+.hero-tagline p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 100%;
+    text-align: justify;
+}
+
+/* About Us */
+#aboutus {
+    padding: 100px 0;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+    padding: 30px 0;
+}
+.caption-about {    
+    margin-left: 30px;
+}
+.rata {
+    text-align: justify;
+    line-height: 2;
+}
+.about-img {
+    max-width: 90%;
+    height: auto;
+}
+.card-aboutus {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 40px;
+}
+.img-card {
+    width: 106px;
+    height: 106px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0,05);
+}
+
+
+/* Gallery */
+#gallery {
+    background-color: #000;
+    height: 100%;
+    padding: 50px 0;
+}
+.img-gallery {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.caption-gallery {
+    color: #fff;
+}
+.img-cardgallery {
+    width: 430px;
+    height: 270px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0,05);
+    border-radius: 10px 10px;
+    -webkit-border-radius: 10px 10px;
+    -moz-border-radius: 10px 10px;
+    -ms-border-radius: 10px 10px;
+    -o-border-radius: 10px 10px;
+}
+.img-pisah1 {
+    width: 245px;
+    height: auto;
+}
+.img-pisah2 {
+    width: 500px;
+    height: auto;
+}
+
+/* product */
+#product {
+    padding: 30px 0;
+}
+.img-product1 {
+    max-width: 100%;
+    height: auto;
+    z-index: 0;
+}
+.caption-product {
+    padding: 72px 72px 0 72px; 
+    text-align: justify;
+}
+
+.pro2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+.pro3 {
+    padding: 25px 0 0 0;
+}
+.tag-product1 {
+    padding: 72px 0 0 0;
+}
+.text-product {
+    background-color: var(--pr-color);
+    width: 251px;
+    color: #fff;
+    text-align: center;
+}
+
+/* contoh news */
+.news5 {
+    width: 350px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.box {
+    width: 360px;
+    float: left;
+    margin: 50px 20px;
+    background-color: #CBC9D6;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+.box h4 {
+    margin-bottom: 10px;
+}
+.box p {
+    font-size: 15px;
+    line-height: 28px;
+    height: 90px;
+    overflow: hidden;
+    text-align: justify;
+}
+.box a {
+    display: inline-block;
+    color: #fff;
+    background-color: var(--pr-color);
+    text-decoration: none;
+    border: 8px;
+    font-size: 13px;
+    padding: 5px;
+}
+.box a:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+.box.showContent p {
+    height: auto;
+}
+.box.showContent a.readmore-btn {
+    background-color: red;
+}
+
+/* News Section */
+#news {
+    background-color: #274291;
+    padding-bottom: 50px;
+}
+.h2news {
+    color: #CBC9D6;
+    margin-bottom: 0%;
+}
+.sub-title {
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+/* Team */
+.h2team {
+    margin-bottom: 0%;
+}
+.sub-title1 {
+    font-size: 18px;
+    color: #0f0f0f;
+    padding: 5px 5px 5px 5px;
+}
+.teams1 {
+    width: 290px;
+    height: auto;
+    padding: 10px 10px 0 10px;
+}
+.card-team {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: linear-gradient(160deg, var(--pr-color), #000);
+}
+.name-team {
+    color: #fff;
+    padding: 5px;
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(160deg, var(--pr-color), #000) ;
+}
+.pcontact {
+    color: #fff;
+}
+.contact3 {
+    font-size: 75px;
+}
+.sosmed {
+    height: 25px;
+    width: 25px;
+}
+
+
+/* Styles untuk tombol WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.whatsapp-float img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e;
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,156 @@
+@media screen and (max-width : 922px) {
+
+}
+
+@media screen and (max-width : 576px) {
+    /* Home */
+    .hero-tagline h1 {
+        line-height: 52px;
+        font-size: 60px;
+    }
+    .img-hero {
+        width: 75%;
+        height: auto;
+    }
+    /* about us */
+    #aboutus {
+        padding: 75px 0;
+    }
+    .about-img {
+        height: 700px;
+        width: auto;
+    }
+    .caption-about {    
+        margin-left: 0;
+    }
+    .caption-about h2 {
+        font-size: 32px;
+        margin-bottom: auto;
+    }
+    .caption-about p {
+        font-size: 17px;
+        margin-top: auto;
+    }
+
+    /* Galerry */
+    .caption-gallery {
+        text-align: center;
+        display: block;
+    }
+    .img-cardgallery {
+        width: 500px;
+        height: auto;
+    }
+    .img-pisah1 {
+        width: 230px;
+        height: auto;
+    }
+    /* Product */
+    #product {
+        padding: 0;
+    }
+    .caption-product {
+        padding: 40px 10px 0 10px;
+    }
+    .tag-product1 {
+        padding-top: 0;
+    }
+    .img-product2 {
+        flex-direction: column-reverse;
+    }
+    .bagus {
+        flex-direction: column-reverse;
+    }
+    
+    /* News */
+    .card-news {
+        width: 500px;
+        height: auto;
+    }
+    .news1 {
+        width: 490px;
+        height: auto;
+    }
+    .h3news {
+        color: #000;
+        font-size: 20px;
+    }
+    .pnews {
+        color: #000;
+        font-size: 15px;;
+    }
+
+
+    /* Teams */
+
+    /* Contact */
+    .contact3 {
+        font-size: 50px;
+    }
+
+}
+
+@media screen and (max-width : 350px) {
+
+    .about-img {
+        height: 500px;
+        width: auto;
+    }
+    .caption-about h2 {
+        font-size: 30px;
+    }
+    .caption-about p {
+        font-size: 15px;
+    }
+    /* Gallery */
+    .img-pisah2 {
+        width: 230px;
+        height: 230px;        
+        background-position: left;
+    }    
+    /* news */
+    .card-news {
+        width: 300px;
+        height: auto;
+    }
+    .news1 {
+        width: 275px;
+        height: auto;
+    }
+    .h3news {
+        color: #000;
+        font-size: 13px;
+    }
+    .pnews {
+        color: #000;
+        font-size: 9px;;
+    }
+
+    /* Teams */
+    .teams1 {
+        width: 250px;
+        height: auto;
+    }
+    .card-team {
+        width: 255px;
+        height: auto;
+    }
+
+    /* Contact */
+    .contact3 {
+        font-size: 40px;
+    }
+
+    /* button Wa */
+    .whatsapp-float {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 30px;
+        right: 30px;
+    }
+    .whatsapp-float img {
+        width: 40px;
+        height: 40px;
+    }
+}
